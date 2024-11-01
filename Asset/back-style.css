@@ -1,0 +1,130 @@
+
+/* Custom Stylesheet */
+
+html[lang="en-US"] .quantity:before {/* add another entry for translation */
+	content:"Select Quantity:"; /* text before input */
+	margin-right:10px
+}
+
+.quantity {
+    margin-bottom: 15px;
+}
+.wrap.motif-support {
+	position: relative;
+}
+.motif_pageTitle {
+    width: 100%;
+    text-align: center;
+}
+.motif_pageTitle h1 {
+    font-size: 48px;
+    line-height: 1.04167;
+    font-weight: 500;
+    letter-spacing: .006em;
+}
+.motif_pageTitle p {
+	margin: 0 auto;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.about-text {
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    padding: 20px 40px;
+}
+.motif-support-form h5 {
+    padding: 10px;
+    margin: 16px auto;
+    text-align: center;
+    color: white;
+    background: #549454;
+    font-size: 13px;
+    border: 1px solid #548654;
+    display: none;
+    width: 60%;
+}
+
+.motif-support-form {
+  padding: 15px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.52);
+  border: 1px solid #e5e5e5;
+  margin-top: 15px;
+}
+.motif-socials {
+  text-align: center;
+}
+ul.motif-social-left li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 10px;
+}
+
+ul.motif-social-left li a img {
+    width: 35px;
+}
+form.cf {
+  max-width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+form.cf input, form.cf textarea {
+  border:1px solid #ccc;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 2em;
+  font-family: 'Merriweather', sans-serif;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+form.fc input:focus, form.cf textarea:focus {
+  -moz-box-shadow: 0 0px 2px #e74c3c !important;
+  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+form.cf #input-submit {
+  color: white;
+  background: #58bf58;
+  cursor: pointer;
+}
+form.cf #input-submit:hover {
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form.cf textarea {
+  height: 193px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
